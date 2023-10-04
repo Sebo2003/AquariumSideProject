@@ -1,0 +1,238 @@
+/*All contnet*/
+*{
+    box-sizing: border-box;
+}
+
+/*anchors*/
+a{
+    text-decoration: none;
+}
+
+/*psuedoclasses*/
+a:link{
+    color:#83f9ff;
+}
+
+a:active{
+    color: white;
+}
+
+a:visited{
+    color:#83f9ff;
+}
+
+a:hover{
+    color:white;
+}
+
+.bodyFigure:hover, .tableCell:hover{
+    border: 2px solid white;
+}
+
+#logoImage:hover, .equipmentImage:hover, .chemicalImage:hover{
+    opacity: 50%;
+}
+
+/*body*/
+body {
+    background-color: #000452;
+    color:#83f9ff;
+    font-family: "Trebuchet MS";
+}
+
+#wrapper{
+    background-color: #02087c;
+}
+
+/*HEAD*/
+#logoContainer{
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
+
+/*nav*/
+nav{
+    text-align: left;
+    padding: 1.2em;
+}
+
+nav a{
+    font-weight: bold;
+}
+
+/*nav ul & li*/
+nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline;
+}
+
+/*hero*/
+#hero{
+    background-size: 100%;
+    text-align: center;
+    padding: 8em;
+}
+
+#headerText{
+    color:white;
+    font-size: 500%;
+    font-weight: bolder;
+}
+
+/*MAIN*/
+main{
+    background-color:  #02087c;
+    padding-bottom: 3em;
+    padding-top: 0.5em;
+}
+
+/*hr*/
+hr{
+    color: white;
+}
+
+/*page introduction*/
+#pageIntroduction{
+    margin: 1%;
+}
+
+#pageContext{
+    width: 80%;
+}
+
+/*table of contents*/
+#tableOfContents{
+    display: inline-block;
+    width: 20%;
+}
+
+/*text*/
+.headingText{
+    font-size: 250%;
+}
+
+.largerParagraphs{
+    font-size: 150%;
+}
+
+/*colors*/
+.yesColor{
+    color: rgb(0, 255, 72);
+}
+
+.cautionColor{
+    color: yellow;
+}
+
+.noColor{
+    color: red;
+}
+
+.addPadding{
+    padding: 1rem;
+}
+
+.inline{
+    display: inline-block;
+}
+
+/*figures*/
+.personalFigures{
+    text-align: center;
+    width: 45%;
+    margin-left: 4%;
+}
+
+.figureContainer{
+    width: 32%;
+    display: inline-block;
+}
+
+.bodyFigure{
+    border: 2px solid #83f9ff;
+    background-image: linear-gradient(to top, #1018ac, #1127b9, #1135c5, #1241d2, #134ede);
+    width: 90%;
+    max-height: 700px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.figureHeader{
+    text-align: center;
+}
+
+.figureImage{
+    width: 90%;
+}
+
+/*figure description*/
+.figureDescription{
+    text-align: center;
+}
+
+/*figure parameters*/
+.figureParameters{
+    background-color: #111897;
+}
+
+.figureParameters ul li{
+    list-style-type: none;
+}
+
+.parameterName{
+    width: 50%;
+}
+
+.parameterInformation{
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+}
+
+/*table cells*/
+.tableCell{
+    background-image: linear-gradient(to top, #1018ac, #1127b9, #1135c5, #1241d2, #134ede);
+    border: 2px solid #83f9ff;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+/*nitrogen cycle*/
+#nitrogenCycleImage{
+    text-align: center;
+}
+
+/*chemistry table*/
+.chemicalDescription{
+    margin-left: 12%;
+    width: 88%; 
+}
+
+
+/*alignment classes*/
+.floatLeft{
+    float: left;
+}
+
+.floatRight{
+    float: right;
+}
+
+.alignText{
+    text-align: center;
+}
+
+/*FOOTER*/
+footer{
+    background-color:#020762;
+}
+
+/*email*/
+#emailContainer{
+    background-color: #040854;
+    text-align: center;
+}

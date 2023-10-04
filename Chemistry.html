@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>Rule the Reef</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="aquarium.css" />
+    <link rel="icon" href="Images/coral-logo.ico" />
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="logoContainer" class="floatLeft">
+                <a href="INDEX.html"><img id="logoImage" src="Images\coral-logo.png" alt="Website Logo" width="75px" height="75x"/></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="INDEX.html">Home</a></li>&#xA0;
+                    <li><a href="Fish.html">Fish</a></li>&#xA0;
+                    <li><a href="Coral.html">Coral</a></li>&#xA0;
+                    <li><a href="Inverts.html">Invertebrates</a></li>&#xA0;
+                    <li><a href="Equipment.html">Equipment</a></li>&#xA0;
+                    <li><a href="Chemistry.html">Chemistry</a></li>&#xA0;
+                </ul>
+            </nav>
+            <div id="hero" style="background-image: url(Images/heroImages/sharkHero.gif);">
+                <h1 id="headerText">
+                    Have the right reaction to your water chemistry!
+                </h1>
+            </div>
+        </header>
+        <main class="addPadding">
+            <section>
+                <div id="pageIntroduction">
+                    <div class="floatLeft" id="pageContext">
+                        <h1 class="headingText">
+                            Boil It Down To A Science!
+                        </h1>
+                        <p class="addPadding largerParagraphs">
+                            Unless you live near one - it turns out it is actually incredibly difficult 
+                            to recreate ocean conditions on dry land. There are innumerable parameters 
+                            that need to be monitored, some more urgent, some less, but all are important! 
+                            There are a variety of tools that are explained in the equipment page on which 
+                            tool measures what, but it is just as if not more important to understand what 
+                            compound does what. Indeed - mastering the reef tank first requires mastering 
+                            water itself. As an aside, it would really help to know a little about the 
+                            nitrogen cycle. I didn't have time for a deep dive unfortunatley, but essentially:
+                            fish poop -> ammonium -> eaten by bacteria -> nitrite -> eaten by bacteria ->
+                            nitrate -> water change. At any rate, let's take a look at some water parameters
+                            (these are the ones I measure for at least):
+                        </p>
+                    </div>
+                    <div id="tableOfContents" class="addPadding">
+                        <h2>
+                            Table of Contents:
+                        </h2>
+                        <h3>
+                            Chemical Parameters:
+                        </h3>
+                        <ul>
+                            <li><a href="#Ammonium">Ammonium</a></li>
+                            <li><a href="#Nitrite">Nitrite</a></li>
+                            <li><a href="#Nitrate">Nitrate</a></li>
+                            <li><a href="#Phosphate">Phosphate</a></li>
+                        </ul>
+                        <h3>
+                            Water Parameters:
+                        </h3>
+                        <ul>
+                            <li><a href="#Salinity">Salinity</a></li>
+                            <li><a href="#Alkalinity">Alkalinity</a></li>
+                            <li><a href="#dissolvedOxygen">Oxygen Saturation</a></li>
+                            <li><a href="#Temperature">Temperature</a></li>
+                            <li><a href="#pH">pH</a></li>
+                        </ul>
+                        <h3>
+                            Mineral Parameters:
+                        </h3>
+                        <ul>
+                            <li><a href="#Calcium">Calcium</a></li>
+                            <li><a href="#Magnesium">Magnesium</a></li>
+                            <li><a href="#Iron">Iron</a></li>
+                            <li><a href="#Potassium">Potassium</a></li>
+                            <li><a href="#Iodine">Iodine</a></li>
+                            <li><a href="#Strontium">Strontium</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main> 
+        </section>
+        <section class="addPadding">
+            <!--Water Parameters-->
+            <div id="chemicalParameters">
+                <h1>
+                    Chemical parameters
+                </h1>
+            </div>
+            <div class="tableCell" id="Ammonium">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Ammonium">
+                        <img class="chemicalImage" src="Images/chemistry/ammonium.png" alt="Ammonium" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Ammonium
+                    </h2>
+                    <p>
+                        Ammonium is the chemical that kicks off any reef tank when the nitrogen cycle begins, fresh or salt! It is poisnous in small 
+                        quantities, for reference, if a human breaths gaseous ammonia - they'll get a nose bleed! Much the same for fish - this is a 
+                        toxin! The recommended amount of ammonium in a reef tank is 0ppm!
+                    </p>
+                </div>
+            </div>
+            <div class="tableCell" id="Nitrite">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Nitrite">
+                        <img class="chemicalImage" src="Images/chemistry/Nitrit-Ion2.svg.png" alt="Nitrite" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Nitrite
+                    </h2>
+                    <p>
+                        Nitrite is a form of nitrogen compound that can be present in a reef tank, typically as a result of biological 
+                        processes. While small amounts of nitrite are generally tolerable for marine organisms, elevated levels 
+                        can be harmful and indicate a potential issue with water quality or the aquarium's nitrogen cycle. The 
+                        recommended amount in a reef tank is 0ppm (mine hovers at around ~0.05ppm, but that's fine)!
+                    </p>
+                </div>
+            </div>
+            <div class="tableCell" id="Nitrate">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Nitrate">
+                        <img class="chemicalImage" src="Images/chemistry/nitrate.png" alt="Nitrate" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Nitrate
+                    </h2>
+                    <p>
+                        At the end of the nitrogen cycle is nitrate, the broken down form of nitrite. This chemical is also toxic to life,
+                        but much less so than the other two chemicals listed above. In fact, nitrate is benefitical to coral growth! As such,
+                        the recommended amount ranges from as low as 0ppm to 20ppm! Personally, I keep it at 10ppm and it seems to work for me.
+                    </p>
+                </div>
+            </div>
+            <div class="tableCell" id="Phosphate">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Phosphate">
+                        <img class="chemicalImage" src="Images/chemistry/1024px-Phosphat-Ion.svg.png" alt="Phosphate" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Phosphate
+                    </h2>
+                    <p>
+                        This chemical is the "alage one"; that is to say, if you have a lot of it, expect a lot of nuisance alage
+                        as well! Realistically, phosphates should only rise if you're overfeeding, and there existence a variety
+                        of tools to filter it specifcally (such as GFO). The recommended amount in a reef tank is 0.1 - 0.05ppm,
+                        but your animals won't suffer if its higher.
+                    </p>
+                </div>
+            </div>
+            <!--Water Parameters-->
+            <div id="waterParameters">
+                <h1>
+                    Water Parameters
+                </h1>
+            </div>
+            <div class="tableCell" id="Salinity">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Sea_salt">
+                        <img class="chemicalImage" src="Images/chemistry/salt.png" alt="Salinity" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Salinity
+                    </h2>
+                    <p>
+                        What makes a saltwater tank a saltwater tank? Its saltwater. However, table salt won't cut it - a rich sea salt 
+                        blend of trace minerals is what will really allow your corals & fish to thrive. Personally, I recommend
+                        Red Sea Reef Crystal mix, as it comes pre-baked with calcium & magnesium. Recommended salinity levels is 
+                        1.024-1.025 specific gravity.
+                    </p>
+                </div>
+            </div>
+            <div class="tableCell" id="Alkalinity">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Alkalinity">
+                        <img class="chemicalImage" src="Images/chemistry/sodium-bicarbonate.png" alt="Alkalinity" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Alkalinity
+                    </h2>
+                    <p>
+                        Alkalinity, also known as carbonate hardness (KH) or total alkalinity, is a water parameter that measures the 
+                        buffering capacity of water against changes in pH. It represents the concentration of alkaline 
+                        substances, primarily carbonates and bicarbonates, in the water. This is one of your most important
+                        parameters - so don't skimp out on the testing equipment for this one! Recommended alkalinity
+                        falls between 7-12 dkh.
+                    </p>
+                </div>
+            </div>
+            <div class="tableCell" id="dissolvedOxygen">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Oxygen_saturation">
+                        <img class="chemicalImage" src="Images/chemistry/dissolvedOxygen.png" alt="Oxygen Saturation" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Oxygen Saturation
+                    </h2>
+                    <p>
+                        Corals, in particular, rely on oxygen for their survival and growth. Healthy oxygen levels promote optimal 
+                        coral respiration and calcification, supporting the deposition of calcium carbonate skeletons and 
+                        the overall well-being of the coral colonies. You can easily ensure oxygen saturation is up to snuff
+                        by having an open-top lid for surface gas exchange (or by simply cracking a window open in the room
+                        the tank is in!).
+                    </p>
+                </div>
+            </div>
+            <div class="tableCell" id="Temperature">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Temperature">
+                        <img class="chemicalImage" src="Images/chemistry/heat.png" alt="Temperature" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Temperature
+                    </h2>
+                    <p>
+                        Temperature is exactly as it sounds. Since these are tropical animals, essentially everything in the hobby 
+                        is going to be comfortable at around 78-82 fahrenheit, just buy some quality heaters and you're good to go.
+                    </p>
+                </div>
+            </div>
+            <div class="tableCell" id="pH">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/PH">
+                        <img class="chemicalImage" src="Images/chemistry/pH-formula.png" alt="pH" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        pH
+                    </h2>
+                    <p>
+                        pH influences various biological processes in a reef tank. It affects enzyme activity, metabolic rates, and the
+                         overall physiology of reef organisms. Maintaining a stable pH range helps ensure proper functioning of these 
+                         biological processes. The recommended pH is 8.4, but its normal for it to lower by as much as 0.5 come nighttime.
+                    </p>
+                </div>
+            </div>
+            <!--Mineral Parameters-->
+            <div id="mineralParameters">
+                <h1>
+                    Mineral Parameters
+                </h1>
+            </div>
+            <div class="tableCell" id="Calcium">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Calcium">
+                        <img class="chemicalImage" src="Images/chemistry/calciumAtom.png" alt="Calcium" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Calcium
+                    </h2>
+                    <p>
+                        Anything that has a shell needs calcium; its as simple as that. Quality salt mixes will usually
+                        keep your caclium stable, but fetching yourself a reactor or automatic doser doesn't hurt.
+                        Recommended levels are 380-450ppm.
+                    </p>
+                </div>
+            </div>
+            <div class="tableCell" id="Magnesium">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Magnesium">
+                        <img class="chemicalImage" src="Images/chemistry/magAtom.png" alt="Magnesium" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Magnesium
+                    </h2>
+                    <p>
+                        Magnesium plays a vital role in regulating calcium and alkalinity levels in a reef tank. It helps maintain 
+                        the proper balance between calcium, carbonate, and bicarbonate ions, ensuring the availability and 
+                        stability of these elements for coral growth and calcification processes. Magnesium helps prevent 
+                        excessive precipitation of calcium carbonate and helps maintain optimal alkalinity and pH levels.
+                        Recommended levels are between 1180-1460ppm (~1300ppm works for me).
+                    </p>
+                </div>
+            </div>
+            <div class="tableCell" id="Iron">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Iron">
+                        <img class="chemicalImage" src="Images/chemistry/ironAtom.png" alt="Iron" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Iron
+                    </h2>
+                    <p>
+                        Iron is a critical component of chlorophyll, the pigment responsible for capturing light energy during photosynthesis. 
+                        Photosynthetic organisms in a reef tank, such as algae and some types of coral zooxanthellae 
+                        (symbiotic algae living within corals), require iron for efficient photosynthesis and the 
+                        production of energy-rich compounds. Recommended levels are 0.006-0.012ppm.
+                    </p>
+                </div>
+            </div>
+            <div class="tableCell" id="Potassium">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Potassium">
+                        <img class="chemicalImage" src="Images/chemistry/potassiumAtom.png" alt="Potassium" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Potassium
+                    </h2>
+                    <p>
+                        Potassium is involved in activating various enzymes necessary for metabolic processes in reef 
+                        organisms. Enzymes facilitate biochemical reactions and are essential for the proper 
+                        functioning of cellular processes, including nutrient metabolism, energy production, and growth.
+                        Recommended levels are 400-420ppm.
+                    </p>
+                </div>
+            </div>
+            <div class="tableCell" id="Iodine">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Iodine">
+                        <img class="chemicalImage" src="Images/chemistry/iodineAtom.png" alt="Iodine" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Iodine
+                    </h2>
+                    <p>
+                        Iodine is crucial for the molting and exoskeleton formation of certain invertebrates, including crustaceans 
+                        (such as shrimp and crabs) and some types of snails. Iodine supports the synthesis of hormones involved 
+                        in molting and helps in the formation of new exoskeletons during growth and regeneration.
+                        Recommended levels are 0.06-0.10ppm.
+                    </p>
+                </div>
+            </div>
+            <div class="tableCell" id="Strontium">
+                <div class="floatLeft">
+                    <a href="https://en.wikipedia.org/wiki/Strontium">
+                        <img class="chemicalImage" src="Images/chemistry/strontiumAtom.png" alt="Strontium" width="125px" height="100x"/>
+                    </a>
+                </div>
+                <div class="chemicalDescription">
+                    <h2>
+                        Strontium
+                    </h2>
+                    <p>
+                        Strontium availability can influence the coloration of certain corals. Some studies suggest that 
+                        strontium is involved in the synthesis of pigments responsible for specific coral colors, such 
+                        as purple or blue hues. Adequate strontium levels can contribute to vibrant and diverse coral 
+                        coloration. Recommended levels are 5-15ppm.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div id="logoContainer" class="floatLeft">
+                <a href="INDEX.html"><img id="logoImage" src="Images\coral-logo.png" alt="Website Logo" width="75px" height="75x"/></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="INDEX.html">Home</a></li>&#xA0;
+                    <li><a href="Fish.html">Fish</a></li>&#xA0;
+                    <li><a href="Coral.html">Coral</a></li>&#xA0;
+                    <li><a href="Inverts.html">Invertebrates</a></li>&#xA0;
+                    <li><a href="Equipment.html">Equipment</a></li>&#xA0;
+                    <li><a href="Chemistry.html">Chemistry</a></li>&#xA0;
+                </ul>
+            </nav>
+            <div id="emailContainer">
+                <small><a href="codstudent41@gmail.com">codstudent41&#64;gmail.com</a></small>
+            </div>
+        </footer>
+    </div>
+</body>

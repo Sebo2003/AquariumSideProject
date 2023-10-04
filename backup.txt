@@ -1,0 +1,140 @@
+        <footer>
+            <div id="footerNav">
+                <a href="Fish.html">
+                    <figure class="footerFigure floatLeft">
+                        <img class="figureImage" src="Images/fishiePlaceHolder.png" alt="x" width="100px" height="150px" />
+                        <figcaption>Learn more about Fish</figcaption>
+                    </figure>
+                </a>
+                <a href="Coral.html">
+                    <figure class="footerFigure floatLeft">
+                        <img class="figureImage" src="Images/fishiePlaceHolder.png" alt="x" width="100px" height="150px" />
+                        <figcaption>Learn more about Corals</figcaption>
+                    </figure>
+                </a>
+                <a href="Inverts.html">
+                    <figure class="footerFigure floatLeft">
+                        <img class="figureImage" src="Images/fishiePlaceHolder.png" alt="x" width="100px" height="150px" />
+                        <figcaption>Learn more about Inverts</figcaption>
+                    </figure>
+                </a>
+                <a href="Equipment.html">
+                    <figure class="footerFigure floatLeft">
+                        <img class="figureImage" src="Images/fishiePlaceHolder.png" alt="x" width="100px" height="150px" />
+                        <figcaption>Learn more about Equipment</figcaption>
+                    </figure>
+                </a>
+                <a href="Chemistry.html">
+                    <figure class="footerFigure floatLeft">
+                        <img class="figureImage" src="Images/fishiePlaceHolder.png" alt="x" width="100px" height="150px" />
+                        <figcaption>Learn more about Chemistry</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div id="emailContainer">
+                <small><a href="sebastian@przybylski.com">sebastian&#64;przybylski.com</a></small>
+            </div>
+        </footer>
+
+/*FOOTER*/
+footer{
+    background-color: #02087c;
+}
+
+/*footer navigation*/
+#footerNav{
+    text-align: center;
+    padding: 1em;
+}
+
+.footerFigure{
+    border: 2px solid white;
+    background-color: #1c23ae;
+    width: 20%;
+    padding: 10px;
+    margin: auto;
+}
+
+.figureImage{
+    width:100%;
+}
+
+/*email*/
+#emailContainer{
+    text-align: center;
+}
+
+                    <figure class="bodyFigure">
+                        <div class="figureHeader">
+                            <h2>Coral Name</h2>
+                            <img class="figureImage" src="Images/fishiePlaceHolder.png" alt="x" width="100px" height="150px" />
+                        </div>
+                        <hr />
+                        <div class="figureParameters">
+                            <div class=" parameterName floatLeft">
+                                <ul>
+                                    <li>param1:</li>
+                                    <li>param2:</li>
+                                    <li>param3:</li>
+                                </ul>
+                            </div>
+                            <div class="parameterInformation">
+                                <ul>
+                                    <li>res1</li>
+                                    <li>res2</li>
+                                    <li>res3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </figure>
+                    
+.bodyFigure{
+    border: 2px solid white;
+    background-color: #1c23ae;
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+    list-style-type: none;
+}
+
+.figureHeader{
+    text-align: center;
+    
+}
+
+.figureImage{
+    width: 90%;
+}
+
+.figureParameters ul li{
+    list-style-type: none;
+}
+
+.parameterName{
+    border: 1px solid white;
+    width: 50%;
+}
+
+.parameterInformation{
+    display: inline-block;
+    border: 1px solid white;
+    width: 50%;
+}
+
+        <section id="nitrogenCycleSection"class="addPadding">
+            <h1 class="headingText">
+                The Nitrogen Cycle:
+            </h1>
+            <p>
+                The Nitrogen Cycle can be explained in the following steps:
+            </p>
+            <ol>
+                <li>step 1</li>
+                <li>step 2</li>
+                <li>step 3</li>
+                <li>step 4</li>
+                <li>step 5</li>
+            </ol>
+            <div id="nitrogenCycleImage">
+                <img src="Images/nitrogenCycle.png" alt="Nitrogen Cycle Diagram" width="500px" height="300px" />
+            </div>
